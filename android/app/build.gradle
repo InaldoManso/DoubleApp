@@ -57,6 +57,20 @@ android {
             signingConfig signingConfigs.debug
         }
     }
+
+    flavorDimensions "app"
+    productFlavors{
+        coffee {
+            dimension "app"
+            resValue "string", "app_name", "App Coffee"
+            versionNameSuffix "-dev"
+        }
+        cookie {
+            dimension "app"
+            resValue "string", "app_name", "App Cookie"
+            applicationId "com.inaldomanso.dev.multiapp_360.prod"
+        }
+    }
 }
 
 flutter {
