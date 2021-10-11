@@ -2,3 +2,5 @@ flutter_icons:
   android: true
   ios: true
   image_path: "assets/images/cookie.png"
+  adaptive_icon_background: "#ffffff"
+  android/ios: true
